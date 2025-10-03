@@ -1,6 +1,6 @@
-url:str=input("url:")
-result =url.count("--")
-while ("--" in url):
-    url=url.replace("--","-",1)
-    print(url)
-    print(result)
+name=input("name:")
+age=input("age:")
+group=input("group:")
+grades=input("grades:")
+result=[name,age,group, [grades]]
+print(result)
